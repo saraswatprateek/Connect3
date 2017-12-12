@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/prateek/.android/build-cache/ed53bbb5a4eb11bfecf0d7ecc4cd566f63556de7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/175e04f2e4e9c0a7909d457307fef6f7cc124f79/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/prateek/.android/build-cache/e10ecde87d4107cf93fb8018cac20a36acafeae0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/prateek/.android/build-cache/71888cb45af9c4765a0d53c9c4de54b3c482a057/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/prateek/.android/build-cache/bf38ff979328073a23b21d686ece9eae49b3530b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/daeaacb01dac9bf8f41e789b21108a5807841575/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/c6f26642a63ec0f965d34946ce22b72b72b17fce/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/094c738f01d2b6e95de22875103ab9f147b86ec2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/prateek/.android/build-cache/444d2cd9f5a00b9b17acaa738bd793dd4f0c148c/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.prateek.connect3.MainActivity
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/prateek/.android/build-cache/ed53bbb5a4eb11bfecf0d7ecc4cd566f63556de7/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/175e04f2e4e9c0a7909d457307fef6f7cc124f79/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/prateek/.android/build-cache/e10ecde87d4107cf93fb8018cac20a36acafeae0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/prateek/.android/build-cache/71888cb45af9c4765a0d53c9c4de54b3c482a057/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/prateek/.android/build-cache/bf38ff979328073a23b21d686ece9eae49b3530b/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/daeaacb01dac9bf8f41e789b21108a5807841575/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/c6f26642a63ec0f965d34946ce22b72b72b17fce/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/094c738f01d2b6e95de22875103ab9f147b86ec2/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/prateek/.android/build-cache/444d2cd9f5a00b9b17acaa738bd793dd4f0c148c/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/AndroidStudioProjects/Connect3/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/prateek/.android/build-cache/ed53bbb5a4eb11bfecf0d7ecc4cd566f63556de7/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/175e04f2e4e9c0a7909d457307fef6f7cc124f79/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/prateek/.android/build-cache/e10ecde87d4107cf93fb8018cac20a36acafeae0/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/prateek/.android/build-cache/71888cb45af9c4765a0d53c9c4de54b3c482a057/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/prateek/.android/build-cache/bf38ff979328073a23b21d686ece9eae49b3530b/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/daeaacb01dac9bf8f41e789b21108a5807841575/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/prateek/.android/build-cache/c6f26642a63ec0f965d34946ce22b72b72b17fce/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/prateek/.android/build-cache/094c738f01d2b6e95de22875103ab9f147b86ec2/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/AndroidManifest.xml:26:9-47

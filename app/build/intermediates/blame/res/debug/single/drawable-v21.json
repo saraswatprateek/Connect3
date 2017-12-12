@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/prateek/AndroidStudioProjects/Connect3/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/prateek/AndroidStudioProjects/Connect3/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/prateek/AndroidStudioProjects/Connect3/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/prateek/AndroidStudioProjects/Connect3/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/prateek/.android/build-cache/3ea678690f30e8478c6894b1ecc016ff1c6052af/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
