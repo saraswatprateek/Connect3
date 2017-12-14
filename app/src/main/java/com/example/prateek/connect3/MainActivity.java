@@ -7,6 +7,7 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,13 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
     int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2, 2};
 
-    int[][] winningPositions = {{0,1,2}, {3,4,5}, {6,7,8}, {0,3,6}, {1,4,7}, {2,5,8}, {0,4,8}, {2,4,6}};
+    int[][] winningPositions = { {0,1,2}, {3,4,5}, {6,7,8}, {0,3,6}, {1,4,7}, {2,5,8}, {0,4,8}, {2,4,6} };
 
     public void dropIn(View view) {
 
         ImageView counter = (ImageView) view;
-
-
 
         int tappedCounter = Integer.parseInt(counter.getTag().toString());
 
@@ -50,8 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            counter.animate().translationYBy(1000f).rotation(360).setDuration(300);
+            counter.animate().translationYBy(1000f).rotation(360).setDuration(600);
 
+            int flag  = 0 ;
             for (int[] winningPosition : winningPositions) {
 
                 if (gameState[winningPosition[0]] == gameState[winningPosition[1]] &&
@@ -77,9 +77,36 @@ public class MainActivity extends AppCompatActivity {
                     LinearLayout layout = (LinearLayout)findViewById(R.id.playAgainLayout);
 
                     layout.setVisibility(View.VISIBLE);
+                    //System.out.println(winningPosition[0] + " " + winningPosition[1] + " " + winningPosition[2]);
+                    flag = 1;
+                }
+//                  else {
+//
+//                    boolean gameIsOver = true;
+//
+//                    for (int counterState : gameState) {
+//
+//                        if (counterState == 2) gameIsOver = false;
+//
+//                    }
+//
+//                    if (gameIsOver) {
+//
+//                        TextView winnerMessage = (TextView) findViewById(R.id.winnerMessage);
+//
+//                        winnerMessage.setText("It's a draw");
+//
+//                        LinearLayout layout = (LinearLayout)findViewById(R.id.playAgainLayout);
+//
+//                        layout.setVisibility(View.VISIBLE);
+//
+//                    }
+//
+//                }
 
-                } else {
-
+            }
+            if (flag == 0) {
+                for (int[] winningPosition : winningPositions) {
                     boolean gameIsOver = true;
 
                     for (int counterState : gameState) {
@@ -99,9 +126,7 @@ public class MainActivity extends AppCompatActivity {
                         layout.setVisibility(View.VISIBLE);
 
                     }
-
                 }
-
             }
         }
 
